@@ -11,8 +11,13 @@
     <body>
 
         <div id="root">
-            <h1 >{{message}}</h1>
+            <h1 :class="title">{{message}}</h1>
 
+            <div>
+                <img :src="image" >
+            </div>
+
+            <button @click="change">Change Mode</button>
         </div>
 
         <!-- JAVASCRIPT -->

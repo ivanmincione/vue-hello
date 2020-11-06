@@ -5,8 +5,9 @@
 }
 
 #root{
-    width: 100vw;
+    width: 1170px;
     margin: 0 auto;
+
 }
 
 .root-dark{
@@ -36,6 +37,5 @@
 #root button{
     width: 200px;
     padding: 20px;
-    margin-left: 50px;
     font-size: 20px;
 }

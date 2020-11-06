@@ -14,7 +14,7 @@ var app = new Vue({
     methods: {
         change() {
             if (this.title == "style-title") {
-                this.title = "style-title-dark root-dark ";
+                this.title = "style-title-dark";
             } else {
                 this.title = "style-title";
             }
